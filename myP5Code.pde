@@ -2,15 +2,72 @@
 void setup() {
     size(400, 400); 
     background(255,255,255,100);
+    
 }
 
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(242,77,74);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+  
+  //feet
+  fill(249,26,46)
+  stroke(229,26,46)
+  ellipse(100,350,120,90);
+  ellipse(300,350,120,90);
+  
+  //body
+  fill(224,133,188)
+  stroke(224,133,188)
+  ellipse(200,250,230,230);
+
+  //hands
+  fill(224,133,188)
+  arc(100,250,120, 100, PI / 2, 3 * PI / 2, OPEN);
+  arc(300,250,120,100, -PI / 2, PI / 2, OPEN);
+  
+
+  //eyes
+  fill(0,0,0)
+  stroke(0,0,0)
+  ellipse(150,220,30,60)
+  ellipse(250,220,30,60)
+  
+  fill(27,3,186)
+  stroke(27,3,186)
+  arc(150,225,30,50,0,PI)
+  arc(250,225,30,50,0,PI)
+
+  fill(225,225,225)
+  stroke(255,255,255)
+  ellipse(150,203,15,25);
+  ellipse(250,203,15,25);
+
+  //blush
+  fill(213,47,167)
+  stroke(213,47,167)
+  ellipse(120,260,40,20);
+  ellipse(280,260,40,20);
+
+  //mouth
+  circle(20,20,100)
+
+  //hat
+  fill(204,223,83)
+  rect(150, 300, 100, 50, 30);
+  
+  
+
+  
+
+
+  
+  
+
+
   
 
   
