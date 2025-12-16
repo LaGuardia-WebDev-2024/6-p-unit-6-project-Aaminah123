@@ -8,15 +8,15 @@ html{
 }
 
 #myCanvas {
-  border-radius: 30px;
-  border: 15px double rgb(55, 0, 255);
+  border-radius: 40px;
+  border: 10px dotted rgb(122, 89, 168);
 }
 
 .container{
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
-  background-color:rgb(100,64,151);
-  justify-content: space-around;
+  background-color:rgba(55, 0, 255, 0.393);
+  justify-content:space-evenly;
   align-items: flex-start;
   padding-bottom: 60px;
   border-radius: 40px;
@@ -26,18 +26,22 @@ html{
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border-radius: 30px;
-  border: 15px double rgb(55, 0, 255);
+  border-radius: 40px;
+  border: 10px dotted rgb(122, 89, 168);
 }
 
 h2{
-  color: rgb(55, 0, 255);
+  color: rgb(122, 89, 168);
 }
 
 #start{
   text-align: left;
+  font-family: "Sigmar One", sans-serif;
 }
 
 #end{
   text-align: right;
+  font-family: "Sigmar One", sans-serif;
 }
+
+
