@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(52,5,143);
     
 }
 
@@ -14,14 +14,14 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
   //feet
-  fill(249,26,46)
-  stroke(229,26,46)
+  fill(249,26,46);
+  stroke(229,26,46);
   ellipse(100,350,120,90);
   ellipse(300,350,120,90);
   
   //body
-  fill(224,133,188)
-  stroke(224,133,188)
+  fill(224,133,188);
+  stroke(224,133,188);
   ellipse(200,250,230,230);
 
   //hands
@@ -31,33 +31,62 @@ void draw(){
   
 
   //eyes
-  fill(0,0,0)
-  stroke(0,0,0)
-  ellipse(150,220,30,60)
-  ellipse(250,220,30,60)
+  fill(0,0,0);
+  stroke(0,0,0);
+  ellipse(160,220,30,60);
+  ellipse(230,220,30,60);
   
-  fill(27,3,186)
-  stroke(27,3,186)
-  arc(150,225,30,50,0,PI)
-  arc(250,225,30,50,0,PI)
+  fill(27,3,186);
+  stroke(27,3,186);
+  arc(160,225,30,50,0,PI);
+  arc(230,225,30,50,0,PI);
 
-  fill(225,225,225)
-  stroke(255,255,255)
-  ellipse(150,203,15,25);
-  ellipse(250,203,15,25);
+  fill(225,225,225);
+  stroke(255,255,255);
+  ellipse(160,203,15,25);
+  ellipse(230,203,15,25);
 
   //blush
-  fill(213,47,167)
-  stroke(213,47,167)
+  fill(213,47,167);
+  stroke(213,47,167);
   ellipse(120,260,40,20);
   ellipse(280,260,40,20);
 
-  //mouth
-  circle(20,20,100)
-
   //hat
-  fill(204,223,83)
-  rect(150, 300, 100, 50, 30);
+  fill(204,223,83);
+  stroke(204,223,83);
+  quad(110,125, 290,125, 295,180, 105,180);
+  fill(130, 227, 119)
+  stroke(130, 227, 119)
+  triangle(110,125, 290,125, 200,10);
+
+  //sword
+  stroke(164, 163, 166)
+  fill(164, 163, 166)
+  quad(51,20, 75,70, 50,172, 25,70);
+  
+  stroke(48, 143, 210)
+  fill(48, 143, 210)
+  rect(40, 170, 20, 70, 20);
+
+  noFill();
+  stroke(48, 143, 210);
+  strokeWeight(20);
+  arc(50,150, 70,50, 0,PI);
+  
+  strokeWeight(1)
+  stroke(179,64,1)
+  fill(179,64,1)
+  ellipse(50,160,40,45)
+
+  //mouth
+  stroke(0,0,0)
+  fill(0,0,0)
+  ellipse(195,280,10,10)
+  
+  
+
+
   
   
 
